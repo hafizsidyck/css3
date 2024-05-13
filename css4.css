@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: blue;
+    width: 600px;
+    height: 600px; 
+    
+}
+.cercle1 {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    position: relative;
+   
+}
+.cercle2 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    position: relative;
+}
+.cercle3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    position: relative;
+}
+.cercle4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    position: relative;
+}
+.point1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    border-top: 3px solid;
+    top: 200px;
+    left: 0;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes myAnimation{
+    from{
+        transform: rotate(Odeg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    }
+.point2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    border-top: 3px solid;
+    top: 200px;
+    right: 0;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.point3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid;
+   
+}
+
+.point4{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 0px; 
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid;
+}
+.point5{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 150px; 
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid;
+}
+.point6{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 160px; 
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid;
+}
+.point7{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 120px; 
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid;
+}
+.point8{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 140px; 
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid;
+}
+.point9{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 60px; 
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid;
+}
+.point10{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 180px; 
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid;
+}
+.point11{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 190px; 
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid;
+}
+.point12{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 230px; 
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid;
+}
+
